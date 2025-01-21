@@ -1,5 +1,4 @@
-# Product Manager | MBA | BSIE
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,8 +29,16 @@
 
         header p {
             margin: 0.5rem 0 0;
-            font-size: 1.2rem;
+            font-size: 1rem; /* Reduced font size for Product Manager | MBA | BSIE */
             color: #1C2A1C;
+        }
+
+        .welcome {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1rem;
+            color: #4A6E4A;
         }
 
         main {
@@ -62,7 +69,7 @@
 
         .resume-download a {
             text-decoration: none;
-            background-color: #D0E0D0;
+            background-color: #006400;
             color: #f5f5f5;
             padding: 0.8rem 1.5rem;
             border-radius: 5px;
@@ -93,29 +100,34 @@
     </style>
 </head>
 <body>
+    <div class="welcome">Welcome to my Profile Page!</div>
+
     <header>
         <h1>Eileen Devereux Dailey</h1>
-        <p>Data Driven | AI Enthusiast | Driving Strategic Impact</p>
+        <p>Product Manager | MBA | BSIE</p>
     </header>
 
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations,  where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
+            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
         </section>
 
         <section>
             <h2>Resume</h2>
-            <p>Explore my professional journey, achievements, and skills in detail. Click below to download my resume.</p>
+            <p>Explore my professional journey, achievements, and skills in detail. Click below to download my resume or connect with me on LinkedIn.</p>
             <div class="resume-download">
                 <a href="Resume_Eileen%20Devereux.pdf" download>Download Resume</a>
+            </div>
+            <div class="resume-download">
+                <a href="https://www.linkedin.com/in/eileen-devereux-2a747913" target="_blank">View LinkedIn</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
     </footer>
 </body>
 </html>
