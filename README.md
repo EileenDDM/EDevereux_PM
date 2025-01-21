@@ -1,6 +1,6 @@
 # EDevereux_PM
 Eileen Devereux Product Manager
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,28 +11,28 @@ Eileen Devereux Product Manager
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #121212;
-            color: #f5f5f5;
+            background-color: #D0E0D0;
+            color: #8FBC8F;
             line-height: 1.6;
         }
 
         header {
             text-align: center;
             padding: 2rem;
-            background-color: #1e1e1e;
+            background-color: #D0E0D0;
             border-bottom: 3px solid #006400;
         }
 
         header h1 {
             font-size: 2.5rem;
             margin: 0;
-            color: #00ff7f;
+            color: #4A6E4A;
         }
 
         header p {
             margin: 0.5rem 0 0;
             font-size: 1.2rem;
-            color: #aaaaaa;
+            color: #1C2A1C;
         }
 
         main {
@@ -48,7 +48,7 @@ Eileen Devereux Product Manager
         h2 {
             border-bottom: 2px solid #006400;
             padding-bottom: 0.5rem;
-            color: #00ff7f;
+            color: #1C2A1C;
         }
 
         p {
@@ -63,7 +63,7 @@ Eileen Devereux Product Manager
 
         .resume-download a {
             text-decoration: none;
-            background-color: #006400;
+            background-color: #D0E0D0;
             color: #f5f5f5;
             padding: 0.8rem 1.5rem;
             border-radius: 5px;
@@ -72,15 +72,15 @@ Eileen Devereux Product Manager
         }
 
         .resume-download a:hover {
-            background-color: #004d33;
+            background-color: #4A6E4A;
         }
 
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #1e1e1e;
+            background-color: #3B3B3B;
             color: #aaaaaa;
-            border-top: 3px solid #006400;
+            border-top: 3px solid #4A6E4A;
         }
 
         footer a {
@@ -96,7 +96,7 @@ Eileen Devereux Product Manager
 <body>
     <header>
         <h1>Eileen Devereux Dailey</h1>
-        <p>Results-Oriented Product Manager | AI Implementation | Driving Strategic Impact</p>
+        <p>Data Driven | AI Enthusiast | Driving Strategic Impact</p>
     </header>
 
     <main>
