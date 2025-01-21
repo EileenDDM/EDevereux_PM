@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,7 +31,6 @@
             font-size: 1rem; /* Reduced font size for Product Manager | MBA | BSIE */
             color: #1C2A1C;
         }
-
         .welcome {
             position: absolute;
             top: 10px;
@@ -69,8 +67,8 @@
 
         .resume-download a {
             text-decoration: none;
-            background-color: #006400;
-            color: #f5f5f5;
+            background-color: #4A6E4A;
+            color: #8FBC8F;
             padding: 0.8rem 1.5rem;
             border-radius: 5px;
             font-size: 1rem;
@@ -85,7 +83,7 @@
             text-align: center;
             padding: 1rem;
             background-color: #8FBC8F;
-            color: #aaaaaa;
+            color: #3B3B3B;
             border-top: 3px solid #4A6E4A;
         }
 
