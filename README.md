@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +18,7 @@
             text-align: center;
             padding: 2rem;
             background-color: #D0E0D0;
-            border-bottom: 3px solid #006400;
+            border-bottom: 3px solid #4A6E4A;
         }
 
         header h1 {
@@ -28,14 +29,14 @@
 
         header p {
             margin: 0.5rem 0 0;
-            font-size: 1rem; /* Reduced font size for Product Manager | MBA | BSIE */
+            font-size: 1rem;
             color: #1C2A1C;
         }
+
         .welcome {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            font-size: 1rem;
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
             color: #4A6E4A;
         }
 
@@ -63,20 +64,23 @@
             display: flex;
             justify-content: center;
             margin-top: 1rem;
+            gap: 1rem;
         }
 
         .resume-download a {
             text-decoration: none;
             background-color: #4A6E4A;
-            color: #8FBC8F;
-            padding: 0.8rem 1.5rem;
+            color: #f5f5f5;
+            padding: 0.8rem 2rem;
             border-radius: 5px;
             font-size: 1rem;
+            width: 180px;
+            text-align: center;
             transition: background-color 0.3s ease;
         }
 
         .resume-download a:hover {
-            background-color: #4A6E4A;
+            background-color: #006400;
         }
 
         footer {
@@ -98,12 +102,14 @@
     </style>
 </head>
 <body>
-    <div class="welcome">Welcome to my Profile Page!</div>
-
     <header>
         <h1>Eileen Devereux Dailey</h1>
         <p>Product Manager | MBA | BSIE</p>
     </header>
+
+    <div class="welcome">
+        Welcome to my Profile Page!
+    </div>
 
     <main>
         <section>
@@ -116,16 +122,14 @@
             <p>Explore my professional journey, achievements, and skills in detail. Click below to download my resume or connect with me on LinkedIn.</p>
             <div class="resume-download">
                 <a href="Resume_Eileen%20Devereux.pdf" download>Download Resume</a>
-            </div>
-            <div class="resume-download">
                 <a href="https://www.linkedin.com/in/eileen-devereux-2a747913" target="_blank">View LinkedIn</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
         <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
+        <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
 </html>
