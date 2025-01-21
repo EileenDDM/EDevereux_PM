@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,7 +35,7 @@
         .welcome {
             text-align: center;
             margin-top: 0.5rem;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             color: #4A6E4A;
         }
 
@@ -76,6 +75,9 @@
             font-size: 1rem;
             width: 180px;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             transition: background-color 0.3s ease;
         }
 
@@ -102,19 +104,24 @@
     </style>
 </head>
 <body>
+    <div class="welcome">
+        Welcome to my Profile Page!
+    </div>
+
     <header>
         <h1>Eileen Devereux Dailey</h1>
         <p>Product Manager | MBA | BSIE</p>
     </header>
 
-    <div class="welcome">
-        Welcome to my Profile Page!
-    </div>
-
     <main>
         <section>
             <h2>About Me</h2>
             <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
+        </section>
+
+        <section>
+            <h2>Key Skills</h2>
+            <p>Strong communication, customer empathy, strategic thinking, data analysis, roadmapping prioritization, cross-functional collaboration, story mapping, lean methodology, performance metric analysis.</p>
         </section>
 
         <section>
