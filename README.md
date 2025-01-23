@@ -116,7 +116,9 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
+            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.
+            
+            I volunteer with the Humane Society of the United States. Have two rescue dogs that get walked twice a day! And when my husband and I aren't travelling with them, we bring them to local dog friendly restaurants. Otherwise, we like to cook things that grow in our garden.</p>
         </section>
 
         <section>
