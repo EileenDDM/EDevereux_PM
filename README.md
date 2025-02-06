@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,20 +14,32 @@
             line-height: 1.6;
         }
 
-        header {
-            text-align: center;
-            padding: 2rem;
+        .header-container {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
             background-color: #D0E0D0;
             border-bottom: 3px solid #4A6E4A;
         }
 
-        header h1 {
-            font-size: 2.5rem;
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .header-text {
+            flex-grow: 1;
+        }
+
+        .header-text h1 {
+            font-size: 2rem;
             margin: 0;
             color: #4A6E4A;
         }
 
-        header p {
+        .header-text p {
             margin: 0.5rem 0 0;
             font-size: 1rem;
             color: #1C2A1C;
@@ -85,6 +98,21 @@
             background-color: #006400;
         }
 
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .interests img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
         footer {
             text-align: center;
             padding: 1rem;
@@ -104,21 +132,22 @@
     </style>
 </head>
 <body>
+    <div class="header-container">
+        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
+        <div class="header-text">
+            <h1>Eileen Devereux Dailey</h1>
+            <p>Product Manager | MBA | BSIE</p>
+        </div>
+    </div>
+
     <div class="welcome">
         Welcome to my Profile Page!
     </div>
 
-    <header>
-        <h1>Eileen Devereux Dailey</h1>
-        <p>Product Manager | MBA | BSIE</p>
-    </header>
-
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.
-            
-            I volunteer with the Humane Society of the United States. Have two rescue dogs that get walked twice a day! And when my husband and I aren't travelling with them, we bring them to local dog friendly restaurants. Otherwise, we like to cook things that grow in our garden.</p>
+            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
         </section>
 
         <section>
@@ -132,6 +161,15 @@
             <div class="resume-download">
                 <a href="Resume_Eileen%20Devereux.pdf" download>Download Resume</a>
                 <a href="https://www.linkedin.com/in/eileen-devereux-2a747913" target="_blank">View LinkedIn</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Personal Interests</h2>
+            <div class="interests">
+                <img src="/mnt/data/A_serene_garden_with_lush_green_plants_and_bloomin_cropped_to_dogs.png" alt="Walking dogs">
+                <img src="/mnt/data/1._A_vibrant_image_of_a_person_gardening_in_a_lush.png" alt="Gardening">
+                <img src="/mnt/data/A_cozy_kitchen_scene_featuring_chopped_vegetables.png" alt="Cooking Vegetables">
             </div>
         </section>
     </main>
