@@ -167,9 +167,10 @@
         <section>
             <h2>Personal Interests</h2>
             <div class="interests">
-                <img src="/mnt/data/A_serene_garden_with_lush_green_plants_and_bloomin_cropped_to_dogs.png" alt="Walking dogs">
-                <img src="/mnt/data/1._A_vibrant_image_of_a_person_gardening_in_a_lush.png" alt="Gardening">
-                <img src="/mnt/data/A_cozy_kitchen_scene_featuring_chopped_vegetables.png" alt="Cooking Vegetables">
+            <img src="images/Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
+            <img src="images/1._A_vibrant_image_of_a_person_gardening_in_a_lush.png" alt="Gardening">
+            <img src="images/A_cozy_kitchen_scene_featuring_chopped_vegetables.png" alt="Cooking">
+
             </div>
         </section>
     </main>
