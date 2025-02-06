@@ -22,9 +22,9 @@
         }
 
         .profile-pic {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            border-radius: 30%;
             margin-right: 1rem;
         }
 
