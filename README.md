@@ -168,7 +168,8 @@
             <div class="interests">
             <img src="images/Gardening.jpeg" alt="Gardening.jpeg">
             <img src="images/cooking.jpeg" alt="cooking.jpeg">
-
+            <img src="images/travel.jpg" alt="traveljpg">
+            <img src="images/dogs.jpg" alt="dogs.jpg">
             </div>
         </section>
     </main>
