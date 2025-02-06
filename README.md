@@ -132,7 +132,7 @@
 </head>
 <body>
     <div class="header-container">
-        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
+        <img src="images/EDD Profile.png" alt="EDD Profile" class="EDD Profile.png">
         <div class="header-text">
             <h1>Eileen Devereux Dailey</h1>
             <p>Product Manager | MBA | BSIE</p>
@@ -166,8 +166,8 @@
         <section>
             <h2>Personal Interests</h2>
             <div class="interests">
-            <img src="images/1._A_vibrant_image_of_a_person_gardening_in_a_lush.png" alt="Gardening">
-            <img src="images/A_cozy_kitchen_scene_featuring_chopped_vegetables.png" alt="Cooking">
+            <img src="images/Gardening.jpeg" alt="Gardening.jpeg">
+            <img src="images/cooking.jpeg" alt="cooking.jpeg">
 
             </div>
         </section>
