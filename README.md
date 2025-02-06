@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -167,7 +166,6 @@
         <section>
             <h2>Personal Interests</h2>
             <div class="interests">
-            <img src="images/Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
             <img src="images/1._A_vibrant_image_of_a_person_gardening_in_a_lush.png" alt="Gardening">
             <img src="images/A_cozy_kitchen_scene_featuring_chopped_vegetables.png" alt="Cooking">
 
