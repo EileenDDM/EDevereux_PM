@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+# Product Manager | MBA | BSIE
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,42 +14,23 @@
             line-height: 1.6;
         }
 
-        .header-container {
-            display: flex;
-            align-items: center;
-            padding: 1rem;
+        header {
+            text-align: center;
+            padding: 2rem;
             background-color: #D0E0D0;
-            border-bottom: 3px solid #4A6E4A;
+            border-bottom: 3px solid #006400;
         }
 
-        .profile-pic {
-            width: 25px; /* Reduced to a quarter of the original size */
-            height: 25px; /* Reduced to a quarter of the original size */
-            border-radius: 50%;
-            margin-right: 1rem;
-        }
-
-        .header-text {
-            flex-grow: 1;
-        }
-
-        .header-text h1 {
-            font-size: 2rem;
+        header h1 {
+            font-size: 2.5rem;
             margin: 0;
             color: #4A6E4A;
         }
 
-        .header-text p {
+        header p {
             margin: 0.5rem 0 0;
-            font-size: 1rem;
-            color: #1C2A1C;
-        }
-
-        .welcome {
-            text-align: center;
-            margin-top: 0.5rem;
             font-size: 1.2rem;
-            color: #4A6E4A;
+            color: #1C2A1C;
         }
 
         main {
@@ -76,48 +57,27 @@
             display: flex;
             justify-content: center;
             margin-top: 1rem;
-            gap: 1rem;
         }
 
         .resume-download a {
             text-decoration: none;
-            background-color: #4A6E4A;
+            background-color: #D0E0D0;
             color: #f5f5f5;
-            padding: 0.8rem 2rem;
+            padding: 0.8rem 1.5rem;
             border-radius: 5px;
             font-size: 1rem;
-            width: 180px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             transition: background-color 0.3s ease;
         }
 
         .resume-download a:hover {
-            background-color: #006400;
-        }
-
-        .interests {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .interests img {
-            width: 150px;
-            height: 150px;
-            border-radius: 10px;
-            object-fit: cover;
+            background-color: #4A6E4A;
         }
 
         footer {
             text-align: center;
             padding: 1rem;
             background-color: #8FBC8F;
-            color: #3B3B3B;
+            color: #aaaaaa;
             border-top: 3px solid #4A6E4A;
         }
 
@@ -132,17 +92,10 @@
     </style>
 </head>
 <body>
-    <div class="header-container">
-        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
-        <div class="header-text">
-            <h1>Eileen Devereux Dailey</h1>
-            <p>Product Manager | MBA | BSIE</p>
-        </div>
-    </div>
-
-    <div class="welcome">
-        Welcome to my Profile Page!
-    </div>
+    <header>
+        <h1>Eileen Devereux Dailey</h1>
+        <p>Data Driven | AI Enthusiast | Driving Strategic Impact</p>
+    </header>
 
     <main>
         <section>
@@ -153,13 +106,12 @@
                 <li>A design of a new User Management system</li>
                 <li>Developing a File Service Management for users to upload, store and share files within web and mobile applications.</li>
                 <li>Launching a Translation service integrating Google Translate with our web and mobile applications.</li>
-                <li>Launching a new authentication login flow for our web and mobile applications.</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking. Coded website using AI.</p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
