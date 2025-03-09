@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,9 +23,9 @@
         }
 
         .profile-pic {
-            width: 30px;
-            height: 30px;
-            border-radius: 30%;
+            width: 25px; /* Reduced to a quarter of the original size */
+            height: 25px; /* Reduced to a quarter of the original size */
+            border-radius: 50%;
             margin-right: 1rem;
         }
 
@@ -132,7 +133,7 @@
 </head>
 <body>
     <div class="header-container">
-        <img src="images/EDD Profile.png" alt="EDD Profile" class="EDD Profile.png">
+        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
         <div class="header-text">
             <h1>Eileen Devereux Dailey</h1>
             <p>Product Manager | MBA | BSIE</p>
@@ -146,36 +147,19 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 14 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
-        </section>
-
-        <section>
-            <h2>Key Skills</h2>
-            <p>Strong communication, customer empathy, strategic thinking, data analysis, roadmapping prioritization, cross-functional collaboration, story mapping, lean methodology, performance metric analysis.</p>
-        </section>
-
-        <section>
-            <h2>Resume</h2>
-            <p>Explore my professional journey, achievements, and skills in detail. Click below to download my resume or connect with me on LinkedIn.</p>
-            <div class="resume-download">
-                <a href="Resume_Eileen%20Devereux.pdf" download>Download Resume</a>
-                <a href="https://www.linkedin.com/in/eileen-devereux-2a747913" target="_blank">View LinkedIn</a>
-            </div>
-        </section>
-
-        <section>
-            <h2>Personal Interests</h2>
-            <div class="interests">
-            <img src="images/Gardening.jpeg" alt="Gardening.jpeg">
-            <img src="images/cooking.jpeg" alt="cooking.jpeg">
-            <img src="images/travel.jpg" alt="traveljpg">
-            <img src="images/dogs.jpg" alt="dogs.jpg">
-            </div>
+            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 7 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
+            <p>Some of the projects I was involved in from conception to launch include:</p>
+            <ul>
+                <li>A design of a new User Management system</li>
+                <li>Developing a File Service Management for users to upload, store and share files within web and mobile applications.</li>
+                <li>Launching a Translation service integrating Google Translate with our web and mobile applications.</li>
+                <li>Launching a new authentication login flow for our web and mobile applications.</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking. Coded website using AI.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
