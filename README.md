@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,8 +23,8 @@
         }
 
         .profile-pic {
-            width: 25px; /* Reduced to a quarter of the original size */
-            height: 25px; /* Reduced to a quarter of the original size */
+            width: 25px;
+            height: 25px;
             border-radius: 50%;
             margin-right: 1rem;
         }
@@ -147,17 +148,32 @@
         <section>
             <h2>About Me</h2>
             <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 7 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
-            <p>Some of the projects I was involved in from conception to launch include:</p>
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
             <ul>
-                <li>A design of a new User Management system</li>
-                <li>Developing a File Service Management for users to upload, store and share files within web and mobile applications.</li>
-                <li>Launching a Translation service integrating Google Translate with our web and mobile applications.</li>
+                <li>Trying new AI tools</li>
+                <li>Organic Gardening</li>
+                <li>Data entry specialist volunteer for the Humane World organization</li>
+                <li>Nature walks</li>
+                <li>Yoga & pilates</li>
+                <li>Occasional Tennis player</li>
+                <li>Vegan cook experimenter</li>
             </ul>
+        </section>
+
+        <section>
+            <h2>Resume & LinkedIn</h2>
+            <div class="resume-download">
+                <a href="Resume_Eileen%20Devereux.pdf" download>Download Resume</a>
+                <a href="https://www.linkedin.com/in/eileen-devereux-pm/" target="_blank">View LinkedIn</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking. Page created by AI.</p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
