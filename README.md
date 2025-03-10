@@ -1,4 +1,3 @@
-# Product Manager | MBA | BSIE
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,23 +13,42 @@
             line-height: 1.6;
         }
 
-        header {
-            text-align: center;
-            padding: 2rem;
+        .header-container {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
             background-color: #D0E0D0;
-            border-bottom: 3px solid #006400;
+            border-bottom: 3px solid #4A6E4A;
         }
 
-        header h1 {
-            font-size: 2.5rem;
+        .profile-pic {
+            width: 25px; /* Reduced to a quarter of the original size */
+            height: 25px; /* Reduced to a quarter of the original size */
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .header-text {
+            flex-grow: 1;
+        }
+
+        .header-text h1 {
+            font-size: 2rem;
             margin: 0;
             color: #4A6E4A;
         }
 
-        header p {
+        .header-text p {
             margin: 0.5rem 0 0;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: #1C2A1C;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            color: #4A6E4A;
         }
 
         main {
@@ -57,27 +75,48 @@
             display: flex;
             justify-content: center;
             margin-top: 1rem;
+            gap: 1rem;
         }
 
         .resume-download a {
             text-decoration: none;
-            background-color: #D0E0D0;
+            background-color: #4A6E4A;
             color: #f5f5f5;
-            padding: 0.8rem 1.5rem;
+            padding: 0.8rem 2rem;
             border-radius: 5px;
             font-size: 1rem;
+            width: 180px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             transition: background-color 0.3s ease;
         }
 
         .resume-download a:hover {
-            background-color: #4A6E4A;
+            background-color: #006400;
+        }
+
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .interests img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
         }
 
         footer {
             text-align: center;
             padding: 1rem;
             background-color: #8FBC8F;
-            color: #aaaaaa;
+            color: #3B3B3B;
             border-top: 3px solid #4A6E4A;
         }
 
@@ -92,10 +131,17 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Eileen Devereux Dailey</h1>
-        <p>Data Driven | AI Enthusiast | Driving Strategic Impact</p>
-    </header>
+    <div class="header-container">
+        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
+        <div class="header-text">
+            <h1>Eileen Devereux Dailey</h1>
+            <p>Product Manager | MBA | BSIE</p>
+        </div>
+    </div>
+
+    <div class="welcome">
+        Welcome to my Profile Page!
+    </div>
 
     <main>
         <section>
@@ -111,7 +157,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking. Page created by AI.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
