@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -147,7 +146,12 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 7 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system.</p>
+            <p>Hello! I'm Eileen Devereux Dailey, a Product Manager with 7 years of experience in the B2B SaaS industry, developing product-oriented projects for technology startups, doing market & customer research and financial analysis. Most recently as a Platform PM at a technology company specializing in communication applications for education organizations, where I led the Platform Engineering Team overseeing the application’s authentication and user management system. Some projects I worked on from design to launch include:</p>
+                <li>A new User Management System</li>
+                <li>New web and mobile authentication and login flows</li>
+                <li>A file management service for users to upload, store and share files in web and mobile applications</li>
+                <li>A translation service that integrated Google Translate with Apptegy's web and mobile applications</li>
+                <li>External services integrations with an internal tool that automated the build and update of Android & iOS mobile apps</li>
         </section>
 
         <section>
@@ -173,7 +177,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking.</p>
+        <p>&copy; 2025 Eileen Devereux Dailey. Leading with empathy and analytical thinking. Website created using AI.</p>
         <p><a href="mailto:eileenddm@gmail.com">eileenddm@gmail.com</a></p>
     </footer>
 </body>
