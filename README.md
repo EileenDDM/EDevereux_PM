@@ -132,7 +132,7 @@
 </head>
 <body>
     <div class="header-container">
-        <img src="Profile%20Pic%20(1).jpg" alt="Profile Picture" class="profile-pic">
+        <img src="images/EDD Profile.png" alt="Profile Picture" class="profile-pic">
         <div class="header-text">
             <h1>Eileen Devereux Dailey</h1>
             <p>Product Manager | MBA | BSIE</p>
